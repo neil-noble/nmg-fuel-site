@@ -39,6 +39,7 @@
     .banner { border-radius: 6px; padding: 10px 12px; font-size: 13px; margin-top: 8px; }
     .banner-warn { background: rgba(231,76,60,.18); border-left: 3px solid #e74c3c; }
     .banner-info { background: rgba(243,156,18,.15); border-left: 3px solid #f39c12; }
+    .banner-ok { background: rgba(39,174,96,.15); border-left: 3px solid #27ae60; }
     .footer { text-align: center; color: #555; font-size: 11px; margin-top: 28px;
       padding-bottom: 12px; line-height: 1.8; }
 </style>
@@ -64,7 +65,7 @@
   <hr class="divider">
 
   <div class="section-title">End-of-Week Forecast</div>
-  <div style="overflow-x:auto"><table class="data-table"><thead><tr><th>Tank</th><th>Current (L)</th><th>Current %</th><th>Avg Daily (L)</th><th>Forecast EOW (L)</th><th>Forecast EOW %</th><th>Days to Empty</th></tr></thead><tbody><tr class="row-red"><td class="td-name">Tank 1</td><td>75,081</td><td>68.0%</td><td>11,802</td><td>0</td><td>0.0%</td><td>6.4</td></tr><tr class="row-red"><td class="td-name">Tank 2</td><td>82,805</td><td>75.0%</td><td>10,258</td><td>10,997</td><td>10.0%</td><td>8.1</td></tr></tbody></table></div><p class="caption">Forecast uses each tank's average daily consumption (days with usage only). End of week = Sunday <b>28 Jun 2026</b> (7 day(s) remaining).</p><div class="banner banner-warn">⚠️ Tank 1 projected below 20% by end of week (0.0%). Consider ordering fuel.</div><div class="banner banner-warn">⚠️ Tank 2 projected below 20% by end of week (10.0%). Consider ordering fuel.</div>
+  <div style="overflow-x:auto"><table class="data-table"><thead><tr><th>Fuel</th><th>Current (L)</th><th>Current %</th><th>Avg Daily Use (L)</th><th>Forecast EOW (L)</th><th>Forecast EOW %</th><th>Days to Empty</th></tr></thead><tbody><tr class="row-red"><td class="td-name">Combined (all tanks)</td><td>157,886</td><td>71.8%</td><td>22,060</td><td>3,464</td><td>1.6%</td><td>7.2</td></tr></tbody></table></div><p class="caption">Tank 1 dispenses fuel and is fed by Tank 2, so the reorder decision is based on the <b>combined</b> total. Forecast uses average daily site consumption (combined drawdown, days with usage only). End of week = Sunday <b>28 Jun 2026</b> (7 day(s) remaining).</p><div class="banner banner-warn">&#9888;&#65039; Combined fuel projected below 20% by end of week (1.6%). Order fuel.</div>
 
   <hr class="divider">
 
@@ -73,7 +74,7 @@
 
   <div class="footer">
     Generated automatically &mdash; NMG Fuel System &mdash; Source: SmartFill<br>
-    Last updated: 21 Jun 2026, 10:01 AM AWST
+    Last updated: 21 Jun 2026, 10:16 AM AWST
   </div>
 
 </body>
